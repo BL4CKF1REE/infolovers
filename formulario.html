@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFOLOVERS </title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <header>
+        <h1><a href="index.html">Infolovers</a></h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="desenvolvedores.html">Sobre nós</a>
+            <a href="formulario.html">Cadastro</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Bem-vindo(a) ao Infolovers, o lugar onde o amor encontra a tecnologia!
+                    Aqui, você pode construir conexões especiais e criar relacionamentos baseados em compatibilidade
+                    digital.
+                    Preencha o formulário abaixo e dê o primeiro passo!</h2> <br>
+                <h3> Junte-se agora e comece a construir o relacionamento perfeito, linha por linha!</h3> <br>
+            </article>
+        </section>
+        <form action="server.php" method="POST">
+            <div class="username">
+                <label for="nome">Qual é o seu nome de usuário ideal para um servidor de namoro?</label><br>
+                <input type="nome" name="nome" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            <br>
+            <div class="nascimento">
+                <label for="nascimento">Quando o seu "Hello, World!" foi lançado?</label>
+                <br>
+                <input type="date" id="nascimento" name="nascimento" required>
+            </div>
+            <br>
+            <div class="phone">
+                <label for="telefone">Se precisássemos de suporte técnico para o coração, qual número devemos
+                    discar?</label><br>
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+            </div>
+            <br>
+            <div class="comportamento">
+                <label for="comportamento">Você é mais: Front-end, Back-end, ou Full Stack no amor?</label><br>
+                <input type="radio" id=" Front-end (sou visual)" name="comportamento" value=" Front-end (sou visual)"
+                    required>
+                <label for="Front-end (sou visual)"> Front-end (sou visual)</label><br>
+                <input type="radio" id="Back-end (sou profundo)" name="comportamento" value="Back-end (sou profundo)">
+                <label for="Back-end (sou profundo)">Back-end (sou profundo)</label><br>
+                <input type="radio" id="Full Stack (faço de tudo)" name="comportamento"
+                    value="Full Stack (faço de tudo)">
+                <label for="Full Stack (faço de tudo)">Full Stack (sou exigente)</label><br>
+            </div>
+            <br>
+            <div class="tiponamoro">
+                <label for="tipo-namoro">Se você fosse definir seu estilo de namoro como um protocolo, qual
+                    seria?</label><br>
+                <input type="checkbox" id="TCP (conexão confiável e controlada)" name="tiponamoro"
+                    value="TCP (conexão confiável e controlada)">
+                <label for="TCP (conexão confiável e controlada)">TCP (conexão confiável e controlada)</label><br>
+                <input type="checkbox" id="UDP (conexão rápida, sem garantias)" name="tiponamoro"
+                    value="UDP (conexão rápida, sem garantias)">
+                <label for="UDP (conexão rápida, sem garantias)">UDP (conexão rápida, sem garantias)</label><br>
+                <input type="checkbox" id="SSH (seguro e protegido)" name="tiponamoro" value="SSH (seguro e protegido)">
+                <label for="SSH (seguro e protegido)">SSH (seguro e protegido)</label><br>
+                <input type="checkbox" id="Bluetooth (curta distância)" name="tiponamoro"
+                    value="Bluetooth (curta distância)">
+                <label for="Bluetooth (curta distância)">Bluetooth (curta distância)</label><br>
+            </div>
+            <br>
+            <div class="linkDoPerfil">
+                <label for="perfilLink">Qual o link para o seu "servidor" de redes sociais?</label><br>
+                <input type="url" id="perfilLink" name="perfilLink" placeholder="https://seu-link.com" required>
+            </div>
+            <br>
+
+            <div class="tabelas">
+                <label for="emocoes">Quantas tabelas(relacionamentos) tem no seu banco de dados amoroso? </label><br>
+                <input type="number" id="emocoes" name="emocoes" min="0" max="100" step="1" placeholder="Ex: 5">
+            </div>
+            <br>
+            <div class="foto">
+                <label for="fotoAvatar">Envie uma foto do seu avatar:</label><br>
+                <input type="file" id="fotoAvatar" name="fotoAvatar" accept="image/*">
+            </div>
+            <br>
+            <div class="codigo">
+                <label for="codigo-amor">"Descreva seu 'algoritmo ideal' para um relacionamento perfeito.</label><br>
+                <input type="text" id="codigo-amor" name="codigoAmor" placeholder="Escreva seu algoritmo do amor">
+            </div>
+            <br>
+            <div class="email">
+                <label>Qual e-mail você usa para se conectar ao amor?</label><br>
+                <input type="email" name="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
+            <br>
+            <div class="senha">
+                <label>Insira a senha do seu coração</label><br>
+                <input type="password" name="senha" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </div>
+            <br>
+            <input type="submit" value="compilar o amor">
+            <input type="reset" value="reiniciar codigo">
+        </form>
+    </main>
+    <footer>
+        <p>IFRN Campus Santa Cruz</p>
+        <br>
+        <p>Trabalho de Autoria Web</p>
+        <br>
+        <p>Prof. Marcelo Figueuiredo Barbosa Júnior</p>
+        <br>
+        <p>Autores: Ávila Sophia Romano Dério de Carvalho, Júlio César Araújo da Silva e Maria de Jesus Silva dos Santos
+        </p>
+        <br>
+        <p>© Infolovers 2024 Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
